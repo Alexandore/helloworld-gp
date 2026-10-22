@@ -14,6 +14,7 @@ if (age >= 15 && hasTicket == true || withAdult === true) /*om han är 15 uppåt
 // = --> tilldela nytt värde
 // == --> kolla om (värdet) är truthy
 // === --> kollar om (värdet) och (datatypen) är truthy
+
 const isLoggedIn = true;
 const userRole = "admin";
 
@@ -26,4 +27,23 @@ if (isLoggedIn == true) {
     } 
 } else {
         console.log("Du måste logga in först!")
+    }
+
+    // 
+
+    const trafficLight = "gul";
+
+    switch (trafficLight) {
+        case "grön":
+            console.log("Kör") 
+            break;
+        case "gul":
+            console.log("Gör dig redo") 
+            break;
+        case "röd":
+            console.log("Stanna!") 
+            break;
+
+        default: 
+            console.log("Okänd signal")
     }
