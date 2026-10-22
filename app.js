@@ -52,15 +52,56 @@ if (isLoggedIn == true) {
 
     switch (dagensVäder) {
         case "sol":
-            console.log("glöm inte solglasögon")
+            console.log("glöm inte solglasögon!")
             break;
         case "regn":
-            console.log("ta med ett paraply")
+            console.log("ta med ett paraply!")
             break;
         case "snö":
-            console.log("ta på dig varm jacka")
+            console.log("ta på dig varm jacka!")
             break;
 
         default:
-            console.log("tidigt höst väder, ta på dig vad som helst")
+            console.log("kolla väderappewn igen.")
+    }
+
+    // for loop
+
+    console.log("1")
+    console.log("2")
+    console.log("3")
+    console.log("4")
+    console.log("5")
+
+    for (let i = 1; i > 6; i++) {
+        console.log(i)
+    }
+
+    // i++
+    //i = i + 1
+    // i--
+   // i = i - 1
+
+    //
+
+    const frukt = ["banan", "äpple", "körsbär"]
+
+    for (let i = 0; i < frukt.length; i++) {
+        console.log(frukt[i])
+    }
+
+    // 
+
+    let energi = 3;
+
+    while (energi > 0) {
+        console.log("Sprang ett varv! energi kvar: " + energi);
+        energi--; //minskar energi med 1 efter varje varv!
+    }
+    console.log("Slut på energi! Måste vila.")
+
+    let energy = 3
+
+    for (let i = energy; i > 0; i--) {
+        console.log("Slut på energy! Måste vila.")
     }
