@@ -90,7 +90,7 @@ if (isLoggedIn == true) {
         console.log(frukt[i])
     }
 
-    // 
+    // While/for loop med console.log
 
     let energi = 3;
 
@@ -105,3 +105,27 @@ if (isLoggedIn == true) {
     for (let i = energy; i > 0; i--) {
         console.log("Slut på energy! Måste vila.")
     }
+
+    // array med olika objekt
+
+    let elever = [
+        {name: "Alex", poang: 85 },
+        {name: "sarah", poang: 1000 },
+        {name: "axel", poang: 10 },
+    ]
+
+    for (let i = 0; i < elever.length; i++) {
+        console.log(elever[i]);
+    }
+
+    //
+
+    for (let i = 5; i >= 1; i--) {
+        if (i === 3) {
+            console.log(i + " - halvvägs kvar")
+        } else {
+            console.log("Sekunder kvar: " + i)
+        }
+    }
+
+    console.log("LIFTOFF!")
