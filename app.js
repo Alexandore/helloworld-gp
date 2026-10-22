@@ -29,7 +29,7 @@ if (isLoggedIn == true) {
         console.log("Du måste logga in först!")
     }
 
-    // 
+    // Switch för trafikljus
 
     const trafficLight = "gul";
 
@@ -46,4 +46,21 @@ if (isLoggedIn == true) {
 
         default: 
             console.log("Okänd signal")
+    }
+
+    const dagensVäder = "sol";
+
+    switch (dagensVäder) {
+        case "sol":
+            console.log("glöm inte solglasögon")
+            break;
+        case "regn":
+            console.log("ta med ett paraply")
+            break;
+        case "snö":
+            console.log("ta på dig varm jacka")
+            break;
+
+        default:
+            console.log("tidigt höst väder, ta på dig vad som helst")
     }
