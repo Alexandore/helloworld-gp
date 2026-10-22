@@ -13,7 +13,7 @@ if (age >= 15 && hasTicket == true || withAdult === true) /*om han är 15 uppåt
 
 // = --> tilldela nytt värde
 // == --> kolla om (värdet) är truthy
-// === --> kollar om (värdet) 
+// === --> kollar om (värdet) och (datatypen) är truthy
 const isLoggedIn = true;
 const userRole = "admin";
 
