@@ -10,3 +10,20 @@ if (age >= 15 && hasTicket == true || withAdult === true) /*om han är 15 uppåt
 } else {
     console.log("gå och köp ticket");
 }
+
+// = --> tilldela nytt värde
+// == --> kolla om (värdet) är truthy
+// === --> kollar om (värdet) 
+const isLoggedIn = true;
+const userRole = "admin";
+
+if (isLoggedIn == true) {
+
+    if (userRole === "admin") {
+        console.log("Välkommen till Adminpanelen!")
+    } else {
+        console.log("Välkommen vanliga användare!")
+    } 
+} else {
+        console.log("Du måste logga in först!")
+    }
